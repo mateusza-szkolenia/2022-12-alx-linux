@@ -4,5 +4,8 @@ echo "Jak masz na imię?"
 
 read imie
 
-echo "Witaj, ${imie}u"
+echo "witaj, ${imie}u"
+
+# nie zadziała:
+# echo "witaj, $imieu"
 
