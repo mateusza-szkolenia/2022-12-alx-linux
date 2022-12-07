@@ -4,5 +4,5 @@ echo "Jak masz na imię?"
 
 read imie
 
-echo "Witaj, $imie"
+echo "Witaj, ${imie}u"
 
