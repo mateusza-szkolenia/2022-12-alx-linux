@@ -1,7 +1,6 @@
 #!/bin/bash
 
+nazwa=$(basename /usr/share/doc/findutils-*)
 
-cd /usr/share/doc
-
-tar -zcf /tmp/backup.tar.gz findutils-*
+tar -zcf backup.tar.gz -C /usr/share/doc $nazwa
 
