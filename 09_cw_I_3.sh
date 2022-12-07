@@ -1,6 +1,6 @@
 #!/bin/bash
 
+cd /usr/share/doc
 
-tar -zcf backup.tar.gz -C /usr/share/doc /usr/share/doc/findutils-*
-
+tar -zcf backup.tar.gz findutils-*
 
