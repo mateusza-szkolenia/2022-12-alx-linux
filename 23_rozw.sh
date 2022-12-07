@@ -4,10 +4,14 @@ read -p "Podaj rok urodzenia: " rokur
 
 biez=$(date +%Y)
 
-wiek=$((biez - rokur))
 
-rok18=$((rokur + 18))
-ilebrakuje18=$((18 - wiek))
+# wiek=$((biez - rokur))
+# rok18=$((rokur + 18))
+# ilebrakuje18=$((18 - wiek))
+
+(( wiek = biez - rokur ))
+(( rok18 = rokur + 18 ))
+(( ilebrakuje18 = 18 - wiek ))
 
 if test "$wiek" -ge 18
 then
