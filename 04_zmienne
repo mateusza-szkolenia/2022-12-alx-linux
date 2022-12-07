@@ -2,5 +2,7 @@
 
 imie="Mateusz"
 
+# nie może być spacji przed ani po znaku =
+
 echo "Dzień dobry, nazywam się $imie"
 
