@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# autor: Mateusz Adamowski
+
+# wyświetla id, gid bieżącego użytkownika
+id
+
+# wyświetla bieżącą datę
+date
+
+pwd
+
+echo "Dzień dobry, witamy na drugiej części szkolenia"
+

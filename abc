@@ -1,0 +1,4 @@
+#!/usr/bin/python
+
+print "Czesc"
+print 2 + 2

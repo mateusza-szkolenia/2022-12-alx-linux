@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+print("Dzień dobry")
+print(2 + 3)
+
