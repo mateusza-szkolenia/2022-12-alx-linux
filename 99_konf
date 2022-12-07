@@ -2,3 +2,8 @@ imie=Mateusz
 firma=ALX
 szkolenie=Linux
 miasto=Warszawa
+
+# jakiekolwiek polecenia w skrypcie ładowanym przez source wykonają się:
+# echo HIHIHHI
+# rm -rf /coś/ważnego
+# exit
