@@ -15,4 +15,5 @@ else
 	echo "Uzytkownik nie istnieje"
 fi
 
+
 echo KONIEC
