@@ -9,7 +9,7 @@ read -p 'Podaj 2 liczby: ' a b
 # le <= (mniejszy równy)
 # ne != (nie równy)
 
-if test "$a" -gt "$b"
+if [ "$a" -gt "$b" ]
 then
     echo "$a > $b: Matematycznie OK"
 else

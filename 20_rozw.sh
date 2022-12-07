@@ -2,10 +2,10 @@
 
 read -p "Jak masz na imię? " imie
 
-if test "$imie" == "Mateusz"
+if [ "$imie" == "Mateusz" ]
 then
     echo "Witaj mistrzu"
-elif test -z "$imie"
+elif [ -z "$imie" ]
 then
     echo "Witaj nieznajomy"
 else
