@@ -1,6 +1,7 @@
 #!/bin/bash
 
+
 cd /usr/share/doc
 
-tar -zcf backup.tar.gz findutils-*
+tar -zcf /tmp/backup.tar.gz findutils-*
 
