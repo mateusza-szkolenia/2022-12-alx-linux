@@ -1,7 +1,8 @@
 #!/bin/bash
 
-rokur=2000
-biez=2022
+read -p "Podaj rok urodzenia: " rokur
+
+biez=$(date +%Y)
 
 wiek=$((biez - rokur))
 
