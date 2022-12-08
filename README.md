@@ -47,3 +47,8 @@ Gwiezdne wojny
 ```command
 $ telnet towel.blinkenlights.nl
 ```
+
+## Bash
+
+operacje na stringach: <https://tldp.org/LDP/abs/html/string-manipulation.html>
+
