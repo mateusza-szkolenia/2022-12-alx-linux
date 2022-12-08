@@ -12,6 +12,7 @@ witaj () {
     echo "WITAJ $imie ($nazwisko) $firma [x=$x]"
     #set +x
     false
+    return 67
 }
 
 echo "Parametry skryptu: $@"
