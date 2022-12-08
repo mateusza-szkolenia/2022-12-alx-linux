@@ -1,6 +1,8 @@
 #!/bin/bash
 
 witaj () {
+    # włączanie debugowania
+    #set -x
 
     local imie nazwisko firma=ALX
 
@@ -8,7 +10,8 @@ witaj () {
     imie=$1
     nazwisko=$2
     echo "WITAJ $imie ($nazwisko) $firma [x=$x]"
-
+    #set +x
+    false
 }
 
 echo "Parametry skryptu: $@"
@@ -19,5 +22,7 @@ imie=Zenon
 
 witaj "Ala" "Kowalska"
 witaj "Michał"
+
+echo "Kod wyjścia: $?"
 
 echo "imie: $imie"
