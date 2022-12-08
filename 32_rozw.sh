@@ -2,6 +2,10 @@
 
 for skrypt in *.sh
 do
-    echo "Skrypt $skrypt: "
+    [ -x "$skrypt" ] && prawa=OK || prawa=brak
+
+    
+
+    echo "Skrypt $skrypt: prawa $prawa "
 done
 
